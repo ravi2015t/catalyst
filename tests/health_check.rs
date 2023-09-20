@@ -49,6 +49,7 @@ async fn check_calculate() {
     // Create a JSON object from the input data
     let json_data: Value = json!({
         "data": input_data,
+        "id":1,
     });
 
     // Send a POST request to the Actix web server
